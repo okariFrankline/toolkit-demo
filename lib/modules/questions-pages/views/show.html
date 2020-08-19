@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block main %}
+    <h2>{{data.piece.title}}</h2>
+    <iframe
+        src="{{data.piece.publicUrl}}"
+        frameborder="0"
+        width="800"
+        height="600"
+        allowtransparency
+    ></iframe>
+
+{% endblock %}
